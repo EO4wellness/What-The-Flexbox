@@ -44,4 +44,29 @@ https://courses.wesbos.com/account/access/606393ab75ff3a25a5c43252/view/19792068
   - another code is:  flex-direction:row-reverse: this has the main axis starting from right and going to left. 
   - another code is: flex-direction:column-reverse; to start at the bottom and go to the top. 
 
-* Day 3: [Wrapping Elements with Flexbox]()
+* Day 3: 2021-04-02 [Wrapping Elements with Flexbox]()
+ - looking at widths 
+ - container with display flex 
+ - select the flex item and give it a width 
+ - Example code:
+      
+        .box {
+            width:300px
+        }
+      
+ - it is going to try to deal with the width you gave it without scroll bars 
+ - flex-wrap:nowrap; is the default 
+ - flex-wrap:wrap; (gives you the width specified, exactly, and fit them with the space)
+ - Axis-->left to right and then -->top to bottom  
+ - flex-wrap:wrap-reverse; goes from left to right but from buttom to top instead of top to bottom (not used often but handy to know when it is needed)
+ - if you want to fill everything use a fraction such as width:33.33333333%; 
+ - flex-direction:column; 
+ - flex-direction:row (this is the default) 
+
+      .box{
+        width:33.3333333%;
+        padding:10px;
+      }
+margin is not part of the box structure so it will "break" 
+
+# Day 4: 2021-04-03 [Flexbox Ordering]()
