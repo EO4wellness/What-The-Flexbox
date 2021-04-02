@@ -69,4 +69,4 @@ https://courses.wesbos.com/account/access/606393ab75ff3a25a5c43252/view/19792068
       }
 margin is not part of the box structure so it will "break" 
 
-* Day 4: 2021-04-03 [Flexbox Ordering]()
+* Day 4: 2021-04-03 [Flexbox Ordering](https://github.com/EO4wellness/What-The-Flexbox/tree/eo4wellness/ordering)
